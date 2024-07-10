@@ -17,6 +17,7 @@ header{
     width: 40%;
     display: flex;
     align-items: center;
+    gap: 25px;
 
 }
 .logoAndLocation .logo{
@@ -29,7 +30,7 @@ header{
 }
 .logoAndLocation .logo img{
     height: 80px;
-    width: 50%;
+  
 }
 .logoAndLocation .location{
     display: flex;

@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './../styles/Header.module.css'
-import logo from './../assets/icones/logo.png'
-import {MapPin,Map,GanttChart, ShoppingCart, User, ChevronDown} from 'lucide-react'
+import logo from './../../assets/icones/logo.png'
+import {MapPin,GanttChart, ShoppingCart, User, ChevronDown} from 'lucide-react'
 
 const Header = () => {
   return (
