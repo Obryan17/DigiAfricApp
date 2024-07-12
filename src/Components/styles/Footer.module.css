@@ -1,0 +1,77 @@
+footer{
+    height: 40vh;
+    background-color: #051923;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+.options {
+    display: flex;
+    justify-content: space-between;
+}
+.options section{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+.options section h2{
+    color: white;
+}
+.options section ul{
+
+    list-style-type: none;
+    
+}
+.options section ul li{
+    padding-bottom: 15px;
+    font-weight: 480;
+    color: white;
+}
+.socialNetworkAndLogo{
+   margin-left: 35px;
+    
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    
+    
+    
+
+}
+.socialNetworkAndLogo .socialNetwork{
+    display: flex;
+    gap:10px ;
+   
+    height:40px ;
+}
+.socialNetworkAndLogo  .logo img{
+   
+    height: 120px;
+  
+}
+.socialNetworkAndLogo .socialNetwork article{
+    background-color: rgb(243, 243, 243);
+    width: 25px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.copyright{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    
+    border-top: 1px solid white;
+    font-weight: bold;
+ 
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
