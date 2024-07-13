@@ -67,9 +67,7 @@
 .choseCategories  .submenu{
     display: none;
 }
-.submenu :hover{
-    display: block;
-}
+
 .choseCategories  :hover  .submenu{
    display: block;
    background-color: #003554;
@@ -87,7 +85,7 @@ border-radius: 20px;
 }
 .FeatureProduct{
 
-    height: 55vh;
+    height: auto;
 }
 .FeatureProductTitle h2{
     font-size: 30px;
@@ -260,4 +258,158 @@ border-radius: 20px;
     color: #0297dc;
     font-size: 15px;
     font-weight: 900;
+}
+@media (max-width:1500px){
+    .gridCard{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    
+    gap: 55px;
+
+}
+.firstview{
+    display: flex;
+    background-color: #003554;
+    height: 45vh;
+    border-radius: 35px;
+    justify-content: space-between;
+}
+.firstview .firstviewTextAndButton {
+ 
+    width: 40%;
+    padding: 50px;
+    height: 77%;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: flex-start;
+    
+}
+.firstview .firstviewTextAndButton h2 {
+
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    
+    
+}
+  .firstviewTextAndButton button{
+    padding: 25px;
+    width: 55%;
+    border-radius: 50px;
+    border: none;
+    color: #003554;
+    font-size: 20px;
+}
+.firstview .firstviewImages{
+   
+    padding: 50px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
+
+}
+.firstview .firstviewImages img{
+    height: 100%;
+    width: 100%;
+
+}
+.choseCategories .dropdownCategories{
+    display: flex;
+    align-items: center;
+    color: #003554;
+    font-size: 20px;
+    background-color: rgb(231, 231, 231);
+  
+    justify-content: center;
+    width: 120%;
+    border-radius: 50px;
+}
+.choseCategories  :hover  .submenu{
+    width: 125%;
+   display: block;
+   background-color: #003554;
+ list-style-type: none;
+   padding: 15px;
+    font-size: 18px;
+color: white;
+border-radius: 20px;
+  
+   
+
+}
+.Best{
+ 
+    margin-top: 30px;
+    padding-left: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25vh;
+    background-color: #006494;
+     width: 95%;
+    border-radius: 35px;
+}
+.Best img{
+    height:8vh;
+
+}
+.BestTextAndButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Best p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.Best button{
+    padding: 10px;
+    width: 60%;
+    font-size: 15px;
+    font-weight: 300;
+    border: none;
+    border-radius: 35px;
+    background-color: rgba(255, 255, 255, 0.834);
+  
+
+}
+.Last{
+    padding: 10px;
+ margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 22vh;
+    background-color: #0297dc;
+     width: 92%;
+    border-radius: 35px;
+    font-size: 30px;
+
+    font-weight: bolder;
+}
+.Last img{
+    height: 15vh;
+}
+.lastTextsmall{
+       font-size: 20px;
+    font-weight: lighter;
+}
+.BestAndLast{
+  
+     
+    
+  
+}
+.ThreeSection{
+    border-top: 1px solid rgba(205, 205, 205, 0.879);
+    margin-top: 1px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
 }
