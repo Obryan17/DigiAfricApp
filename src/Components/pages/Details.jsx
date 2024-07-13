@@ -23,7 +23,7 @@ const Details = () =>{
                          en particulier ceux qui travaillent sur des projets liés à l'écosystème Apple</p>
                 </section>
                 <section className={style.info_price}>
-                    <h2>$45.00</h2>
+                    <h2>$250.00</h2>
                 </section>
                 <section className={style.info_buttons}>
                     <article className={style.info_buttons_top}>
