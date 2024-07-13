@@ -19,11 +19,13 @@ const Details = () =>{
                 <section className={style.info_name}>
                     <h2>HP Elitebook Core i5</h2>
                     <h3>Tactile pliable possible de le mettre en tablette</h3>
-                    <p>MacBook Pro (Apple) Le MacBook Pro est un choix populaire parmi les développeurs,
-                         en particulier ceux qui travaillent sur des projets liés à l'écosystème Apple</p>
+                    <p> En plus du clavier rétroéclairé et des ports
+                    Thunderbolt, les EliteBook sont dotés d'un boitier en magnésium très solide.
+                    En plus de cette solidité, les EliteBook sont plus légers que les ProBook.
+                    Ils sont donc plus faciles à transporter</p>
                 </section>
                 <section className={style.info_price}>
-                    <h2>$250.00</h2>
+                    <h2>$260.00</h2>
                 </section>
                 <section className={style.info_buttons}>
                     <article className={style.info_buttons_top}>
