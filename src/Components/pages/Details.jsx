@@ -17,8 +17,8 @@ const Details = () =>{
             </div>
             <div className={style.info}>
                 <section className={style.info_name}>
-                    <h2>Lenovo ThinkPad X1 Carbon  </h2>
-                    <h3>Dell XPS 13</h3>
+                    <h2>HP Elitebook Core i5</h2>
+                    <h3>Tactile pliable possible de le mettre en tablette</h3>
                     <p>MacBook Pro (Apple) Le MacBook Pro est un choix populaire parmi les développeurs,
                          en particulier ceux qui travaillent sur des projets liés à l'écosystème Apple</p>
                 </section>
