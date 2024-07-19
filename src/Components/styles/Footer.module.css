@@ -5,12 +5,7 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-<<<<<<< HEAD
-   }
-=======
-  
 }
->>>>>>> 482e67647c249fae221c25a6b7f2771ab5d13600
 .options {
     display: flex;
     justify-content: space-between;
