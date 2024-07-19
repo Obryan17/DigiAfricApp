@@ -62,11 +62,10 @@
         flex-direction: column;
  }
 .info_name{
-    height: 25%;
+    height: 30%;
     padding: 2vh;
     font-family: 'Times New Roman', Times, serif;
-    font-size: small;
-}
+ }
 .info_price{
     height: 10%;
     padding: 2vh;
@@ -135,6 +134,7 @@
 }
 
 .info_description{
-    height: 40%;
-    background-color: #3c340e;
-}
+    height: 35%;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2vh;
+ }

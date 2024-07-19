@@ -38,7 +38,11 @@ const Details = () =>{
                         <button className={style.Add_btn}>Add to card</button>
                     </article>
                 </section>
-                <section className={style.info_description}></section>
+                <section className={style.info_description}>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum praesentium veniam,
+                    officiis magni maxime esse corporis fugit quos. Esse reiciendis repellendus ad veniam!
+                    Ipsam nulla, nisi ullam reiciendis exercitationem delectus?</p>
+                </section>
             </div>
         </div>
     )
