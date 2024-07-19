@@ -67,14 +67,10 @@
 .choseCategories  .submenu{
     display: none;
 }
-<<<<<<< HEAD
+
 .submenu :hover{
     display: block;
-}
-=======
-
->>>>>>> 482e67647c249fae221c25a6b7f2771ab5d13600
-.choseCategories  :hover  .submenu{
+}.choseCategories  :hover  .submenu{
    display: block;
    background-color: #003554;
  list-style-type: none;
@@ -91,11 +87,10 @@ border-radius: 20px;
 }
 .FeatureProduct{
 
-<<<<<<< HEAD
+
     height: 55vh;
-=======
+
     height: auto;
->>>>>>> 482e67647c249fae221c25a6b7f2771ab5d13600
 }
 .FeatureProductTitle h2{
     font-size: 30px;
@@ -268,10 +263,10 @@ border-radius: 20px;
     color: #0297dc;
     font-size: 15px;
     font-weight: 900;
-<<<<<<< HEAD
-=======
+
+
 }
-@media (max-width:1500px){
+@media (max-width:1400px){
     .gridCard{
     display: grid;
     grid-template-columns:1fr 1fr 1fr ;
@@ -424,5 +419,5 @@ border-radius: 20px;
     
 
 }
->>>>>>> 482e67647c249fae221c25a6b7f2771ab5d13600
+
 }

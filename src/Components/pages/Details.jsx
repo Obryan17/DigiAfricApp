@@ -2,6 +2,7 @@ import React from 'react'
 import style from './../styles/Details.module.css'
 
 const Details = () =>{
+    
     return(
         <div className={style.main_details}>
             <div className={style.images}>

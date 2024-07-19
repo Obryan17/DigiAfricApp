@@ -1,10 +1,8 @@
 import React from 'react'
 import style from './../styles/Footer.module.css'
-<<<<<<< HEAD
+
 import { Copyright, Facebook, Instagram, Linkedin, Twitter } from 'lucide-react';
-=======
-import { Copyright, Facebook, Instagram, Linkedin, Twitch, Twitter } from 'lucide-react';
->>>>>>> 482e67647c249fae221c25a6b7f2771ab5d13600
+
 import logo from './../../assets/icones/logoWhite.png'
 
 const Footer = () => {

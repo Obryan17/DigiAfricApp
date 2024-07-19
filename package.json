@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "firebase": "^10.12.4",
     "lucide-react": "^0.407.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -36,13 +37,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-<<<<<<< HEAD
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "author": "",
   "license": "ISC"
-=======
-  }
->>>>>>> 482e67647c249fae221c25a6b7f2771ab5d13600
 }
