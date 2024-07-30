@@ -10,6 +10,12 @@
     height: 45vh;
     border-radius: 35px;
     justify-content: space-between;
+    align-items: center;
+}
+.firstview img{
+    height: 50vh;
+    position: relative;
+    bottom: 75px;
 }
 .firstview .firstviewTextAndButton {
  
@@ -163,6 +169,10 @@ border-radius: 20px;
     color: rgb(164, 164, 164);
  
 }
+.AddCart{
+    color: #003554 ;
+    text-decoration: none;
+}
 .AddCart button{
     padding: 15px;
     width: 50%;
@@ -192,7 +202,7 @@ border-radius: 20px;
  
     margin-top: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     height: 25vh;
     background-color: #006494;
@@ -200,7 +210,7 @@ border-radius: 20px;
     border-radius: 35px;
 }
 .Best img{
-    height:12vh;
+    height:30vh;
 
 }
 .BestTextAndButton{
@@ -211,6 +221,7 @@ border-radius: 20px;
 .Best p{
     font-size: 30px;
     font-weight: bolder;
+    color: white;
 }
 .Best button{
     padding: 10px;
@@ -238,7 +249,7 @@ border-radius: 20px;
     font-weight: bolder;
 }
 .Last img{
-    height: 18vh;
+    height: 30vh;
 }
 .lastTextsmall{
        font-size: 30px;

@@ -42,6 +42,7 @@
 }
 .form p {
     margin-bottom: 20px;
+    color: white;
 }
 .form input{
     width: calc(100% - 20px);
@@ -64,3 +65,8 @@
 
 }
 
+.link{
+    color: white;
+  text-decoration: none;
+
+}
